@@ -1,0 +1,44 @@
+# Tool Differentia
+
+Archival repository for a Hermes Labs Zenodo technical note. Read the paper
+at https://hermes-labs.ai/research/tool-differentia or cite the DOI directly.
+
+## What this is
+
+A deterministic, pre-runtime static analysis (LintLang H1.6) that flags when
+two individually valid AI-agent tool definitions jointly fail to provide the
+distinguishing information ("tool differentia") an agent needs to select
+between them. Makes no model or network calls; a clean result does not
+establish semantic distinguishability or runtime tool-selection correctness.
+
+## Canonical identity
+
+- Title: Tool Differentia: Relational Static Analysis for AI Agent Tool Descriptions
+- Author: Rolando Bosch, Hermes Labs (ORCID 0009-0005-4896-1112)
+- DOI (concept): 10.5281/zenodo.21817243
+- DOI (current version, 1.0.1): 10.5281/zenodo.21820025
+- License: CC BY 4.0
+- Canonical HTML edition: https://hermes-labs.ai/research/tool-differentia
+- Hosted PDF: https://hermes-labs.ai/papers/tool-differentia-technical-note-v1.0.1.pdf
+- Publication index entry: https://github.com/hermes-labs-ai/hermes-publications/tree/main/papers/tool-differentia
+- Tool that operationalizes this note: https://github.com/hermes-labs-ai/lintlang
+
+## Evidence boundary
+
+The synonym lexicon is English-specific and bounded; the analysis compares
+only definitions extracted from one parsed input. A missing differentia does
+not demonstrate that a model will select the wrong tool at runtime. The note
+does not claim to validate H1.6's effect on actual model tool-selection
+behavior, and reports no precision/recall against a labeled external corpus.
+
+## Not affiliated
+
+Hermes Labs is not affiliated with NousResearch, Teknium, the Nous-Hermes LLM
+line, or the unrelated `hermes-agent` project.
+
+## Citation
+
+See CITATION.cff in this repository, or:
+
+Bosch, R. (2026). Tool Differentia: Relational Static Analysis for AI Agent
+Tool Descriptions (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.21817243

@@ -1,0 +1,33 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Tool Differentia: Relational Static Analysis for AI Agent Tool Descriptions",
+  "description": "Archival package for the Zenodo technical note that defines tool differentia and describes H1.6, a deterministic, pre-runtime static analysis for AI agent tool descriptions implemented in LintLang. This repository packages the paper and its citation/discovery metadata; the reference analysis it describes is implemented in the separate LintLang repository.",
+  "identifier": "https://doi.org/10.5281/zenodo.21817243",
+  "codeRepository": "https://github.com/hermes-labs-ai/tool-differentia",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "1.0.1",
+  "datePublished": "2026-08-06",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Rolando",
+      "familyName": "Bosch",
+      "@id": "https://orcid.org/0009-0005-4896-1112",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Hermes Labs"
+      }
+    }
+  ],
+  "keywords": [
+    "AI agents",
+    "static analysis",
+    "tool descriptions"
+  ],
+  "relatedLink": [
+    "https://hermes-labs.ai/research/tool-differentia",
+    "https://github.com/hermes-labs-ai/lintlang",
+    "https://github.com/hermes-labs-ai/hermes-publications/tree/main/papers/tool-differentia"
+  ]
+}

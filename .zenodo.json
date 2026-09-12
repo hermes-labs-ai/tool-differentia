@@ -1,0 +1,21 @@
+{
+  "title": "Tool Differentia: Relational Static Analysis for AI Agent Tool Descriptions",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "description": "Tool definitions are commonly validated one at a time, although an agent selects tools from a set of alternatives. This technical note defines tool differentia as the distinguishing information needed between neighboring tool definitions and describes H1.6, a deterministic, pre-runtime static analysis implemented in LintLang.",
+  "creators": [
+    { "name": "Bosch, Rolando", "orcid": "0009-0005-4896-1112", "affiliation": "Hermes Labs" }
+  ],
+  "keywords": [
+    "AI agents",
+    "static analysis",
+    "tool descriptions"
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    { "identifier": "10.5281/zenodo.21817243", "relation": "isIdenticalTo", "scheme": "doi" },
+    { "identifier": "https://github.com/hermes-labs-ai/lintlang", "relation": "isSupplementTo", "scheme": "url" }
+  ],
+  "_comment": "This file mirrors the canonical Zenodo record (10.5281/zenodo.21817243, concept DOI) for discovery. The paper is already deposited directly on Zenodo. Do NOT connect this repository to the Zenodo GitHub integration / webhook: doing so would mint a second, duplicate DOI on the next GitHub release instead of pointing at the existing canonical record. Keep the GitHub-Zenodo integration OFF for this repository, exactly as hermes-publications (which carries the same kind of static .zenodo.json without live integration) already does."
+}

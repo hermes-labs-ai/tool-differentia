@@ -1,0 +1,18 @@
+# Proposed GitHub topics for hermes-labs-ai/tool-differentia
+# One per line. The five common-core topics (ai-agents, ai-reliability,
+# epistemic-engineering, hermes-labs, research-paper) are read live from
+# `GET https://api.github.com/repos/hermes-labs-ai/<repo>` (no auth needed
+# for public repos) on 2026-09-11, and appear on ALL FOUR existing paper
+# repos (the-asymmetric-burden-of-proof, taxonomy-of-epistemic-failure-modes,
+# precise-records-unstable-meanings, the-generative-horizon) — see
+# SOURCES.md for the exact topic lists returned. static-analysis and
+# tool-descriptions come from that same live call against
+# hermes-labs-ai/lintlang, the repo that operationalizes this note.
+ai-agents
+ai-reliability
+epistemic-engineering
+hermes-labs
+research-paper
+static-analysis
+tool-descriptions
+large-language-models
