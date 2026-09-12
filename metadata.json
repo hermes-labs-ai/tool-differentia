@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.5281/zenodo.21820025",
+  "name": "Tool Differentia: Relational Static Analysis for AI Agent Tool Descriptions",
+  "headline": "Tool Differentia: Relational Static Analysis for AI Agent Tool Descriptions",
+  "description": "Tool definitions are commonly validated one at a time, although an agent selects tools from a set of alternatives. This technical note defines tool differentia as the distinguishing information needed between neighboring tool definitions and describes H1.6, a deterministic, pre-runtime static analysis implemented in LintLang.",
+  "author": {
+    "@type": "Person",
+    "givenName": "Rolando",
+    "familyName": "Bosch",
+    "identifier": "https://orcid.org/0009-0005-4896-1112",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Hermes Labs"
+    }
+  },
+  "datePublished": "2026-08-06",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.21820025"
+  },
+  "keywords": [
+    "AI agents",
+    "static analysis",
+    "tool descriptions"
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "name": "tool-differentia-technical-note-v1.0.1.pdf",
+    "sha256": "094cb8423c08df2911fd755ab8c438532d3b09715d1b09665ac526e5edaabe28"
+  }
+}
