@@ -4,7 +4,7 @@ title: "Tool Differentia: Relational Static Analysis for AI Agent Tool Descripti
 abstract: "Tool definitions are commonly validated one at a time, although an agent selects tools from a set of alternatives. This technical note defines tool differentia as the distinguishing information needed between neighboring tool definitions and describes H1.6, a deterministic, pre-runtime static analysis implemented in LintLang. H1.6 compares tool names and descriptions within one parsed input, normalizes selected synonyms, and reports mutual ambiguity or directional domination when the implemented term model finds no distinguishing terms. The method makes no model or network calls and is deliberately bounded: its lexicon is finite, its comparison scope is local, and a clean result does not establish semantic distinguishability or runtime correctness."
 type: software
 authors:
-  - family-names: "Bosch"
+  - family-names: "Bosch Rodriguez"
     given-names: "Rolando"
     orcid: "https://orcid.org/0009-0005-4896-1112"
     affiliation: "Hermes Labs"
@@ -18,7 +18,7 @@ preferred-citation:
   type: article
   title: "Tool Differentia: Relational Static Analysis for AI Agent Tool Descriptions"
   authors:
-    - family-names: "Bosch"
+    - family-names: "Bosch Rodriguez"
       given-names: "Rolando"
       orcid: "https://orcid.org/0009-0005-4896-1112"
       affiliation: "Hermes Labs"
