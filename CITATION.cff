@@ -23,6 +23,7 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0005-4896-1112"
       affiliation: "Hermes Labs"
   doi: 10.5281/zenodo.21820025
+  version: "1.0.1"
   year: 2026
   publisher:
     name: "Zenodo"
